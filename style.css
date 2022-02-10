@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bebas+Neue&family=Playfair+Display&family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background:rgb(229, 199, 153)
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 900px;
+    background-color: rgb(85, 85, 85);
+    height: 100vh;
+  }
+   .buttons {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .buttons button {
+    width: 120px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+    border: none;
+  }
+  
+   .grid {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px auto;
+}
+.pixel{
+    background: white;
+}
+.nav{
+  align-items:center;
+  display: flex;
+  gap: 490px;
+  color: #ffffff;
+  justify-content: space-around;   
+}
+.nav-item{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+.header{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  padding-left: 20px;
+  background-color: black;
+}
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 400;
+  font-size: 32px;
+}
+#color-picker{
+  border: 2px solid black;
+}
+
+.selected{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+.color-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.color-indicator{
+  display: flex;
+  align-items: row;
+  justify-content: space-evenly;
+}
+.color-info{
+  font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+}
+.organizer{
+  display: flex;
+  justify-content: space-around;
+}
+.canvas{
+  margin-left: 125px;
+  
+}
